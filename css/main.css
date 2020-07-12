@@ -54,6 +54,7 @@ nav{
 }
 
 ul{
+    display: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -65,6 +66,35 @@ ul li a{
     font-size: .9em;
     display: block;
     padding: 1.75em 3em;
-    background-color: rgba(255,255,255,.35);
+    background-color: rgba(255,255,255.44);
     color: #000;
 }
+
+main {
+    background: #ffffff;
+    padding: 1em 1.4em;
+}
+
+h1 {
+    margin:0; 
+}
+
+p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.calltoaction {
+    display: block;
+    color: #ffffff;
+    background: #7323D1;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 2em 0;
+}
+
+

@@ -15,7 +15,7 @@
         <img src="images/menu.svg" alt="">
 
         <nav>
-            <ul class="active">
+            <ul>
                 <li><a href="#">home</a></li>
                 <li><a href="#">about me</a></li>
                 <li><a href="#">contact</a></li>
@@ -24,6 +24,26 @@
     </aside>
 
     <main>
+        <h1>
+            I'm a student,<br/> programmer,<br/> and aspiring product manager
+        </h1>
+        <p>
+            Currently in my junior year @ UWaterloo Engineering
+        </p>
+
+        <a href="#" class="calltoaction">my work</a>
+
+    <script>
+        (function(){
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+
+            menulink.addEventListener('click', function(e) {
+                menu.classList.toggle('active');
+                e.preventDefault();
+            });
+        })();
+    </script>
 
 
     </main>
